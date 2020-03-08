@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FC Barcelona</title>
+    <link href="estilos/estilo.css.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascripts/misjs.js"></script>
+    <link  rel="icon"   href="imagenes/favicon.png" type="image/png" />
+<body>
+   <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#inicio" class="active">Inicio</a>
+                <a href="#presentacion">Presentación</a>
+                <a href="#parallax">Parallax</a>
+                <a href="#portfolio">Logros</a>
+                <a href="#galeria">Galeria</a>  
+                <a href="#preguntas">FAQ</a> 
+                <a href="#contacto">Contacto</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+              
+        </nav>
+       
+        <header id="inicio">
+            <div class="texto-hero">
+            </div>
+        </header>       
+        
+        <section id="presentacion">
+            <div class="titulo-seccion">
+              <h2>FC Barcelona</h2>
+            </div>
+            <!-- ESTO ESTÁ MAQUETADO EN MITADES -->
+          
+            <div class="mitad" id="izda">
+              El Fútbol Club Barcelona (en catalán, Futbol Club Barcelona), conocido popularmente como Barça,​ es una entidad polideportiva de Barcelona, España. Fue fundado como club de fútbol el 29 de noviembre de 1899 y registrado oficialmente el 5 de enero de 1903. Es uno de los cuatro clubes profesionales de España junto a Real Madrid Club de Fútbol, Athletic Club y Club Atlético Osasuna que no es sociedad anónima, de manera que la propiedad del club recae en sus socios.
+            </div>
+            <!-- DIV VACÍO PARA ROMPER EL FLOAT-->
+            <div class="final"></div>
+        </section>
+        <!-- SECTION CON PARALLAX PARA PROBAR-->
+        <section id="parallax" class="parallax">
+
+        </section>
+
+        <section id="portfolio">
+          <div class="titulo-seccion">
+            <h2>LOGROS</h2>
+          </div>
+          <!-- COMO SE MAQUETA UNA SECCIÓN EN TERCIOS-->
+          <div class="mitad2" id="dos-uno">
+              <h1>Mayor Logro</h1>
+              En 2009 el FC Barcelona consiguió el mayor logro en la historia del futbol, tanto nacional como internacional. El FC Barcelona se hizo con los 6 posibles trofeos de esa temporada consiguiendo así el único sextete en la historia del futbol internacional.
+              Consiguió el título de La Liga, La Copa del Rey, La Champions, La Supercopa de España, La Supercopa de Europa y El Mundial de Clubes.
+          </div>
+          <div class="mitad2" id="dos-dos">
+              <h1>Doble Triplete</h1>
+              El FC Barcelona es el único equipo que ha ganado dos triplete hasta lo que llevamos de fecha. Hay varios equipos que también han conseguido el triplete en una ocasión como el PSV, Manchester United, Celtic, Ajax, FC Internacionale y el Bayer Múnich, pero el Barcelona ha sido el único doblemente campeón de este.
+              Consiguió uno en 2009 y otro en 2015 ganando La Liga, Copa y La Champions.
+          </div>
+          <!-- DIV VACÍO PARA ROMPER EL FLOAT-->
+          <div class="final"></div>
+        </section>
+        <!-- SECCIÓN GALERÍA CON SLIDER O CAROUSEL-->
+        <section id="galeria">
+          <div class="titulo-seccion">
+            <h2>FOTOS DEL CLUB</h2>
+          </div>
+<!-- CÓDIGO DE SLIDESHOW DE W3SCHOOL -->
+
+          <!-- Container for the image gallery -->
+  <div class="container">
+
+    <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+      <img src="https://as.com/futbol/imagenes/2019/05/09/primera/1557392347_052135_1557392561_noticia_normal.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+      <img src="https://sofiabarcelona.com/wp-content/uploads/sites/4/2019/10/campnou-1600x900.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+      <img src="https://estaticos.elperiodico.com/resources/jpg/4/1/plantilla-del-barca-posa-con-copa-del-rey-calderon-1496001023014.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+      <img src="https://www.culemania.com/uploads/s1/77/70/74/3/sextete.jpeg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://as.com/futbol/imagenes/2019/05/09/primera/1557392347_052135_1557392561_noticia_normal.jpg" style="width:100%" onclick="currentSlide(1)" alt="ESTADIO CAMP NOU (Ambiente)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://sofiabarcelona.com/wp-content/uploads/sites/4/2019/10/campnou-1600x900.jpg" style="width:100%" onclick="currentSlide(2)" alt="ESTADIO CAMP NOU (Por fuera)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://estaticos.elperiodico.com/resources/jpg/4/1/plantilla-del-barca-posa-con-copa-del-rey-calderon-1496001023014.jpg" style="width:100%" onclick="currentSlide(3)" alt="PLANTILLA TRIPLETE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.culemania.com/uploads/s1/77/70/74/3/sextete.jpeg" style="width:100%" onclick="currentSlide(4)" alt="HOMENAJE SEXTETE">
+    </div>
+
+  </div>
+</div>
+
+        </section>
+        <!-- PREGUNTAS FRECUENTES CON ACCORDION DE W3SCHOOL -->
+        <section id="preguntas">
+          <div class="titulo-seccion">
+            <h2>¿ALGUNA DUDA?</h2>
+          </div>
+
+          <button class="accordion">¿Cuántos Socios tiene el FC Barcelona?</button>
+          <div class="panel">
+            <p>El FC Barcelona cuenta con 143.459 socios, de los cuales el 20% son menores de 15 años, y el otro 80% son carnets seniors. El 26,4% de los socios ya son mujeres y el 73,6% son hombres. A pesar de ser un club global, el 92% de los socios viven en Cataluña, siendo el otro 8% del resto de España y del extranjero.</p>
+          </div>
+
+          <button class="accordion">¿Cuántos títulos tiene el FC Barcelona?</button>
+          <div class="panel">
+            <p>El FC Barcelona cuenta con 24 ligas, 26 Copas del Rey, 5 Champions League, 13 Supercopas de España, 5 Supercopas de la UEFA, 3 Mundiales de Clubes. Real Madrid: 33 ligas, 19 Copas del Rey, 11 Champions League, 9 Supercopas de España, 3 Supercopas de la UEFA, 3 Copas Intercontinentales y 3 Mundial de Clubes.</p>
+          </div>
+
+        </section>
+        <!-- SECCIÓN CONTACTO CON 2 MITADES: MAPA Y INFO -->
+        <section id="contacto">
+          <div class="titulo-seccion">
+            <h2>CONTACTO</h2>
+          </div>
+          <div class="mitad" id="mapa">
+            <iframe id=mimapa src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.6864762013097!2d2.1206311154255966!3d41.38089597926468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498f576297baf%3A0x44f65330fe1b04b9!2sCamp%20Nou!5e0!3m2!1ses!2ses!4v1583689047551!5m2!1ses!2ses" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>          </div>
+          <div class="mitad" id="info">
+            <dl>
+              <dt><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección:</dt>
+              <dd>Distrito de Les Corts de la ciudad de Barcelona<br>
+                08003, Bsrcelona</dd>
+              <dt><i class="fa fa-phone" aria-hidden="true"></i> Teléfono de contacto:</dt>
+              <dd>902 1899 00</dd>
+              <dt><i class="fa fa-fax" aria-hidden="true"></i> Fax:</dt>
+              <dd>93 496 37 71</dd>
+              <dt><i class="fa fa-envelope" aria-hidden="true"></i> Correo electrónico:</dt>
+              <dd>penyes@fcbarcelona.cat.</dd>
+            </dl>
+          </div>
+          <div class="final"></div>
+        </section>
+        <footer>
+
+        </footer>
+   </div>
+   <script>
+       var slideIndex = 1;
+       showSlides(slideIndex);
+       /****** aqui va lo de accordion *****/
+
+       var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+   </script>
+</body>
+</html>
